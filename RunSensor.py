@@ -7,7 +7,7 @@ Analog read at Sleepy Pi (Almost Arduino Uno !), reads an input sample per 100 u
 #import modules:
 from pyfirmata import Arduino, util
 from time import sleep
-import os
+import os, sys
 from time import sleep
 
 class RunSensor:
